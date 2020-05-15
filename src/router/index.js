@@ -15,6 +15,16 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: () => import('@/views/appmanager/App_ReportPrice.vue')
+    },
+    {
+      path: '/coder',
+      name: 'coder',
+      component: () => import('@/views/builder/coder.vue')
+    },
+    {
+      path: '/test',
+      name: 'test',
+      component: () => import('@/views/order/Test_data.vue')
     }
   ]
 })
